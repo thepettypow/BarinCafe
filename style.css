@@ -1,5 +1,22 @@
+/* @font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir-Regular.woff2') format('woff2'),
+         url('fonts/Vazir-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir-Bold.woff2') format('woff2'),
+         url('fonts/Vazir-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+} */
+
+
 body {
-    font-family: 'Vazir', Arial, sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
     margin: 0;
     padding: 0;
     color: #1C4B3E;
@@ -7,6 +24,8 @@ body {
 }
 
 header {
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
     background-color: #1C4B3E;
     color: #CAB69E;
     text-align: center;
@@ -76,6 +95,8 @@ main {
 }
 
 footer {
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
     background-color: #1C4B3E;
     color: #CAB69E;
     text-align: center;
@@ -83,19 +104,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-@font-face {
-    font-family: 'Vazir';
-    src: url('fonts/Vazir-Regular.woff2') format('woff2'),
-         url('fonts/Vazir-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Vazir';
-    src: url('fonts/Vazir-Bold.woff2') format('woff2'),
-         url('fonts/Vazir-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
 }
