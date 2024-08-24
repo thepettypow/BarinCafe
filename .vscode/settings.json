@@ -1,0 +1,5 @@
+{
+    "search.exclude": {
+        "consel.log (\"amirpayan\");": true
+    }
+}
