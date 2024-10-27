@@ -93,6 +93,16 @@ main {
     font-size: 0.8em;
 }
 
+.alert2 {
+    color: #875E34;
+    margin-bottom: 18px;
+    padding: 10px;
+    direction: rtl;
+    text-align: right;
+    text-align: center;
+    font-size: 0.8em;
+}
+
 .menu-item {
     background-color: #f5cea6;
     border-radius: 8px;
